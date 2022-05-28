@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/calculator.png">
+    <title>Calculatrice JS</title>
+</head>
+<body>
+    <div class="container">
+    <table border="0"> 
+        <tr> 
+           <td colspan="3"><input id="output"/></td> 
+           <td><button id="clean" onclick="clean()">c</button></td> 
+        </tr> 
+        <tr> 
+           <td><button onclick="display('1')">1</button></td> 
+           <td><button onclick="display('2')">2</button></td> 
+           <td><button onclick="display('3')">3</button></td> 
+           <td><button onclick="display('+')">+</button></td> 
+        </tr> 
+        <tr> 
+           <td><button onclick="display('4')">4</button></td> 
+           <td><button onclick="display('5')">5</button></td> 
+           <td><button onclick="display('6')">6</button></td> 
+           <td><button onclick="display('-')">-</button></td> 
+        </tr> 
+        <tr> 
+           <td><button onclick="display('7')">7</button></td> 
+           <td><button onclick="display('8')">8</button></td> 
+           <td><button onclick="display('9')">9</button></td> 
+           <td><button onclick="display('*')">*</button></td> 
+        </tr> 
+        <tr>
+           <td><button onclick="display('.')">.</button></td> 
+           <td><button onclick="display('0')">0</button></td> 
+           <td><button id="calc" onclick="calc()">=</button></td> 
+           <td><button onclick="display('/')">/</button></td> 
+        </tr> 
+     </table> 
+    </div>
+     <script src="./assets/js/script.js"></script>
+</body>
+</html>
